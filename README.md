@@ -27,6 +27,7 @@ Contact Form template included:
 - Map
 - Social links
 - Feedback
+- Dark / Ligt mode
 
 
 
