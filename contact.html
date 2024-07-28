@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+
+<body>
+
+
+    <h1 class="headline">Any Problem? .   .   .</h1>
+    <img src="./assets/images/call-center-operator.png" alt="operator-png" class="operator">
+
+    <div class="container">
+
+        <h1>Contact Us</h1>
+
+        <div class="line"></div>
+
+        <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;height:500px;"><div id="google-maps-canvas" style="height:100%; width:100%;max-width:100%; margin-top: 40px;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Baku&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="google-map-html" href="https://www.bootstrapskins.com/themes" id="make-map-data">premium bootstrap themes</a><style>#google-maps-canvas img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style>
+        </div>
+
+        <form action="./success_page.html" name="contactForm" target="_blank">
+            <label for="FullName" class="full-name">Full Name</label>
+
+
+            <label for="FirstName" class="fname">First Name</label>
+            <input type="text" name="FirstName" id="FirstName" class="double" size="40">
+
+            <label for="LastName" class="fname">Last Name</label>
+            <input type="text" name="LastName" id="LastName" class="double" size="40">
+
+            <label for="email" class="email">Email</label>
+            <!-- <img src="./assets/images/asterisk.png" alt="" class="required-img"> -->
+            <input type="email" name="email" id="email" required size="40">
+            
+
+            <label for="text" class="message">Message</label>
+            <!-- <img src="./assets/images/asterisk.png" alt="" class="required-img"> -->
+            <textarea type="text" name="message" id="message" maxlength="150" style="height: 200px; width: 50%;" required>
+            </textarea>
+
+
+
+            <div class="line-bottom"></div>
+
+
+            <button type="submit" id="submit" formtarget="_blank">
+                <span>Submit</span>
+            </button>
+
+            <p id="demo"></p>
+
+        </form>
+
+
+    <div class="icon-block">
+        <!-- <p>Socials</p> -->
+        <a href="#"><img src="./assets/images/instagram.png" alt="instagram"></a>
+        <a href="#"><img src="./assets/images/facebook.png" alt="facebook"></a>
+        <a href="#"><img src="./assets/images/twitter.png" alt="X"></a>
+        <p class="copyright_text">Copyright &copy; 2024 
+            Powered by
+            <a href="#" class="copyright_link">Peri</a>
+        </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+
+    </div>
+   
+    </div>
+
+
+<!-- Toggle button works -->
+   <!-- <label class="switch">
+    <input type="checkbox" checked>
+    <span class="slider round"></span>
+   </label> -->
+
+
+
+
+    <!-- Toggle Icon used-->
+    <i class='fas fa-star-half-stroke fa-spin fa-pulse fa-3x' id="toggle"></i>
+
+   <script src="./assets/js/index.js"></script>
+   <script src="./assets/js/contact.js"></script>
+
+
+   <!-- <script>
+
+        function successFunction() {
+            let x = document.getElementById('submit').formTarget;
+            document.getElementById("demo").innerHTML = x
+        // window.location.href = "./success_page.html";
+        }
+
+   </script> -->
+
+
+</body>
+</html>

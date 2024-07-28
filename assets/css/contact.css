@@ -1,0 +1,364 @@
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+.headline {
+    margin-left: 610px;
+    position: relative;
+    top: 190px;
+
+}
+
+
+
+.operator {
+    width: 120px;
+    position: relative;
+    left: 700px;
+}
+
+
+.container {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 200px;
+}
+
+
+
+@font-face {
+    font-family: regularDesign;
+    src: url("../fonts/Designio\ Regular.otf");
+}
+
+
+@font-face {
+    font-family: boldDesign;
+    src: url("../fonts/Designio\ Bold.otf");
+}
+
+
+@font-face {
+    font-family: vallerineRegular;
+    src: url("../fonts/Vallerineregular-vmDY7.otf");
+}
+
+
+h1 {
+    font-family: regularDesign;
+    font-size: 50px;
+    margin-bottom: 6px;
+ 
+}
+
+
+.line {
+    height: 1px;
+    background-color: lightgray;
+
+}
+
+
+
+form {
+    margin-top: 100px;
+    /* font-size: 20px; */
+    font-family: regularDesign;
+}
+
+
+.full-name {
+    position: relative;
+    top: 8px;
+    font-size: 20px;
+    left: 15px;
+    font-family: Inter, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+    
+}
+
+
+label {
+    position: relative;
+    top: 20px;
+    
+}
+
+
+input {
+    position: relative;
+    top: 40px;
+    height: 30px;
+    border: 1px solid lightgray;
+}
+
+         
+.double {
+    position: relative;
+    top: 45px;
+    right: 152px;
+   
+}
+
+
+.fname {
+    position: relative;
+    top: 75px;
+    left: -82px;
+}
+
+
+
+.email {
+    position: relative;
+    top: 146px;
+    right: 832px;
+    font-size: 20px;
+    font-family: Inter, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+    
+}
+
+.email:after {
+    content: " *";
+    color: red;
+}
+
+
+
+
+
+#email {
+    position: relative;
+    /* top: 190px;
+    right: 880px; */
+    top: 186px;
+    right: 900px;
+}
+
+
+.message {
+    position: relative;
+    /* top: 285px;
+    right: 1187px; */
+    top: 60px;
+    right: -15px;
+    font-size: 20px;
+    font-family: Inter, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+
+
+}
+
+
+
+.message:after {
+    content: " *";
+    color: red;
+}
+
+
+#message {
+    position: relative;
+    top: 285px;
+    left: -88px;
+    border: 1px solid lightgray;
+
+}
+
+
+button {
+    position: relative;
+    bottom: -410px;
+    margin: 0 43%;
+    width: 178px;
+    height: 50px;
+    background-color: #4abc4a;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    cursor: pointer;
+
+    
+}
+
+
+button:hover {
+    background-color: rgb(12, 169, 35);
+    transition-delay: 0.1s;
+}
+
+
+
+
+
+span {
+    text-align: center;
+    color: white;
+    /* font-family: regularDesign; */
+    /* font-weight: 500; */
+    /* font-size: 20px; */
+    font-size: 1.4em;
+    font-family: Inter, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+
+}
+
+
+.line-bottom {
+    height: 1px;
+    background-color: lightgray;
+    position: relative;
+    bottom: -351px;
+    left: 16px;
+    margin-right: 16px;
+}
+
+
+
+.icon-block {
+    position: relative;
+    bottom: -480px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    left: -40px;
+}
+
+
+.copyright_text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+
+
+a > img {
+    height: 20px;
+    width: 20px;
+}
+
+
+.icon-block > p {
+    position: relative;
+    top: 2px;
+}
+
+
+
+
+.icon-block > p > a {
+    text-decoration: none;
+    color: rgb(167, 120, 237);
+    font-family: vallerineRegular;
+}
+
+
+
+/* slider witch */
+
+/* works */
+
+/* .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    right: -1350px;
+    top: -1465px;
+}
+
+
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    
+}
+
+
+
+.slider:before {
+    position: absolute;
+    height: 26px;
+    width: 26px;
+    content: "";
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+
+
+.slider.round {
+    border-radius: 34px;
+}
+
+
+
+.slider.round:before {
+    border-radius: 50%;
+} */
+
+
+
+i {
+    cursor: pointer;
+    font-size: xx-large;
+    padding: 20px;
+    /* border: 1px solid; */
+
+    padding: 16px;
+    /* border: 1px solid; */
+    position: relative;
+    /* display: block; */
+    right: -1400px;
+    top: -1450px;
+    /* width: 17px; */
+   
+}
+
+
+.dark {
+    background-color: black;
+    color: white;
+    transition: 0.6s;
+   
+}
+
