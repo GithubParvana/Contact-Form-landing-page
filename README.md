@@ -41,7 +41,7 @@ Contact Form template included:
 ## Pictures
 
 
-![Contact-Page](contact.html.png)
-![Success-Page](success_page.png)
+![Contact-Page](picture_1.png)
+![Success-Page](picture_2.png)
 
 
